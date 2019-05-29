@@ -13,7 +13,7 @@ def main(argv):
     )
     args = parser.parse_args(argv)
 
-    print("hello")
+    print("hello2")
 
     return 0
 
