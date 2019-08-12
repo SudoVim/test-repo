@@ -6,6 +6,9 @@ test script
 import sys
 import argparse
 
+def helper_fcn():
+    print("hello2")
+
 def main(argv):
     """ main function """
     parser = argparse.ArgumentParser(
@@ -13,7 +16,7 @@ def main(argv):
     )
     args = parser.parse_args(argv)
 
-    print("hello2")
+    helper_fcn()
 
     return 0
 
