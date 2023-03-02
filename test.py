@@ -17,7 +17,7 @@ def main(argv):
     )
     args = parser.parse_args(argv)
 
-    helper_fcn()
+        helper_fcn()
 
     return 0
 
