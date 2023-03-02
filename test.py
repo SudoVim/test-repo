@@ -4,6 +4,7 @@ test script
 """
 
 import sys
+import pprint
 import argparse
 
 def helper_fcn():
